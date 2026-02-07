@@ -1,0 +1,11 @@
+{
+  "name": "zip-browser-web",
+  "private": true,
+  "workspaces": ["app"],
+  "scripts": {
+    "build:wasm": "bash scripts/build-wasm.sh",
+    "dev": "npm run build:wasm && npm -w app run dev",
+    "build": "npm run build:wasm && npm -w app run build",
+    "preview": "npm -w app run preview"
+  }
+}

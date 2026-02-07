@@ -1,0 +1,8 @@
+node_modules/
+dist/
+target/
+app/src/wasm/
+*.swp
+*.swo
+.DS_Store
+.context/
